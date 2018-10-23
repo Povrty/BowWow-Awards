@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: #333333;
+    font-family: 'Lato', sans-serif;
+}   
+to-p {
+    font-family: 'Kodchasan', sans-serif;
+    text-shadow: 5px 5px 15px #E5CF00;
+}
+.hd2 {
+    letter-spacing: 5px;
+    font-size: 200px;
+    line-height: 10px;
+}
+.hd1 {
+    line-height: 10px;
+    font-size: 128px;
+}
+.yellow {
+    color: #FFE600;
+}
+.Movie {
+        height: 500px;
+}
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: hotpink;
+}
+a {
+    color: #ffffff;
+}
+span {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 48px;
+}
