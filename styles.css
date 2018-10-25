@@ -116,8 +116,15 @@ a:hover{
 p {
     color: white;
 }
+
 .Ball {
     font-family: 'Mali', cursive;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.Dow {
+    font-family: 'Abril Fatface', cursive;
     font-size: 48px;
     text-shadow: 5px 5px 10px #000000;
 }
