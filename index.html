@@ -1,45 +1,42 @@
 <!DOCTYPE html> <html><head>
         <link rel="icon" href="https://banner2.kisspng.com/20180710/eyr/kisspng-68th-primetime-emmy-awards-70th-primetime-emmy-awa-5b44991cf26a45.5284184015312223009929.jpg">
-        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Kodchasan|Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Kodchasan|Lato|Mali" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>BowWow Awards</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <title>WowWow Awards</title>
     <style>body {
     text-align: center;
     background-color: #333333;
     font-family: 'Lato', sans-serif;
-}   
+}
+
+hr {
+    background-color: #fff;
+    height: 2px;
+}
+
 to-p {
     font-family: 'Kodchasan', sans-serif;
     text-shadow: 5px 5px 15px #E5CF00;
 }
+
+.hd1 {
+    line-height: 10px;
+    font-size: 128px;
+}
+
 .hd2 {
     letter-spacing: 5px;
     font-size: 200px;
     line-height: 10px;
 }
-.hd1 {
-    line-height: 10px;
-    font-size: 128px;
-}
+
+
 .yellow {
     color: #FFE600;
 }
-.Movie {
-        height: 500px;
-        box-shadow: 5px 5px 5px;
-}
-a:hover{
-    color: #0000EE;
-}
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-span {
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 48px;
-    text-shadow: 5px 5px 10px #000000;
-}
+
 .navbar {
     background-color: #595959;
     position: fixed;
@@ -51,7 +48,7 @@ span {
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
+    text-align: left;
     padding: 10px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -62,15 +59,77 @@ span {
     background: #dddddd;
     color: black;
 }
-.Home {
+
+.dropbtn {
     background-color: #4CAF50;
+    color: white;
+    padding: 0px 0px;
+    font-size: 16px;
+    border: none;
 }
-hr {
-    background-color: #fff;
-    height: 2px;
+
+.dropdown {
+    position: absolute;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0000EE;
+}
+
+.Animated {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.Movie {
+    height: 500px;
+}
+
+.Shadow {
+        width: auto;
+        box-shadow: 5px 5px 5px;
+}
+
+.Pwrbll {
+    width: 50%;
+    height: auto;
+}
+
+p {
+    color: white;
+}
+.Ball {
+    font-family: 'Mali', cursive;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px #000000;
 }</style></head>
     <body>
-        <hr id="home">
+        <hr id="Home">
         <to-p>
             <h1 class="hd2 yellow">2018</h1>
             <h1 class="hd1 yellow">WowWow</h1>
@@ -78,28 +137,47 @@ hr {
         </to-p>
         <hr id="Film">
         <div class="navbar">
-            <a class="Home" href="#home">Home</a>
-            <a href="#Film">Best Film <i class="fa fa-caret-down"></i>
-            </a>
-            <a href="#First">News</a>
-            <a href="#First">News</a>
-            <a href="#First">News</a>
+            <div class="dropdown">
+            <button class="dropbtn">
+                <a class="menu" href="#menu">
+                    <i-i class="material-icons" style="font-size:24px;">menu</i-i>
+                </a>
+            </button>
+            <div class="dropdown-content">
+                <a href="#Home">Home</a>
+                <a href="#Film">Best Film</a>
+                <a href="#">Link 3</a>
+            </div>
+            </div>
         </div>
         <to-p2>
             <h1>
-                <a href="https://www.google.com/search?rlz=1CADEAG_enUS815&amp;ei=rkjPW44y87zQ8Q-b-ILQCA&amp;q=Academy+Award+for+Best+Animated+Feature+Film%2FWinners+%282018%29&amp;oq=Academy+Award+for+Best+Animated+Feature+Film%2FWinners+%282018%29&amp;gs_l=psy-ab.3..33i22i29i30.346.9117..9736...0.0..0.76.114.4......0....1j2..gws-wiz.....0.HJv42fKHkAQ&amp;safe=active&amp;ssui=on" target="_blank">Best <span>Animated</span> Feature Film</a>
+                <a href="https://www.google.com/search?rlz=1CADEAG_enUS815&amp;ei=rkjPW44y87zQ8Q-b-ILQCA&amp;q=Academy+Award+for+Best+Animated+Feature+Film%2FWinners+%282018%29&amp;oq=Academy+Award+for+Best+Animated+Feature+Film%2FWinners+%282018%29&amp;gs_l=psy-ab.3..33i22i29i30.346.9117..9736...0.0..0.76.114.4......0....1j2..gws-wiz.....0.HJv42fKHkAQ&amp;safe=active&amp;ssui=on" target="_blank">Best <span class="Animated">Animated</span> Feature Film</a>
             </h1>
-        <div id="Movie">
-            <img class="Movie" src="http://www.gstatic.com/tv/thumb/v22vodart/13930352/p13930352_v_v8_ac.jpg">
-        </div>
+            <img class="Shadow Movie" src="http://www.gstatic.com/tv/thumb/v22vodart/13930352/p13930352_v_v8_ac.jpg">
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Coco_(2017_film)"><strong>Coco</strong></a> is a 2017 American 3D computer-animated fantasy film produced by..
+            </p>
         </to-p2>
         <hr>
         <to-p3>
             <h1>
-                <a href="">
-                
-                </a>
+                <a href="https://www.cnbc.com/2018/03/29/who-won-the-biggest-us-lottery-prizes-ever.html">Highest <span class="Ball">Powerball</span> (1.6 Billion)</a>
             </h1>
+            <img class="Shadow Pwrbll" src="http://www.kplctv.com/resizer/9Sr8HCcuGCmb88csFRvl0NdTt00=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/YMFY7P52OREQ3FW2ZUM3T7EXLM.jpg">
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Powerball"><strong>Powerball</strong></a> is an American lottery game offered by 44 states..
+            </p>
         </to-p3>
+    <hr>
+        <to-p4>
+            <h1>
+                <a href="https://www.thebalance.com/dow-jones-closing-history-top-highs-and-lows-since-1929-3306174">Highest <span class="Dow">Dow Points</span> (26,828.39)</a>
+            </h1>
+            <img class="Shadow" src="https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/charts/2018/01/1517001283_DJI_chart.jpeg">
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average">The<strong>Dow Jones Industrial Average (DJIA)</strong></a>, or simply the Dow (/ˈdaʊ/), is..
+            </p>
+        </to-p4>
     
 </body></html>
